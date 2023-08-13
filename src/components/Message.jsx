@@ -1,10 +1,10 @@
 import React, { useContext, useEffect, useRef, useState } from "react";
 import { AuthContext } from "../context/AuthContext";
 import { ChatContext } from "../context/ChatContext";
-// import moment from 'moment';
+import moment from 'moment';
 
 const Message = ({ message }) => {
-  // const [time,setTime]=useState(moment().format('h:mm'))
+  const [time,setTime]=useState(moment().format('h:mm'))
   const { currentUser } = useContext(AuthContext);
   const { data } = useContext(ChatContext);
 
@@ -28,7 +28,7 @@ const Message = ({ message }) => {
           }
           alt=""
         />
-        <span>just now</span>
+        <span>{time}</span>
       </div>
       <div className="messageContent">
         <p>{message.text}</p>

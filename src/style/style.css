@@ -1,3 +1,4 @@
+/*  This Style is only used for login or Register Pages*/
 .main-container{
     background: #f6f5f7;
 	display: flex;
@@ -83,7 +84,6 @@
 	text-transform: uppercase;
 	cursor: pointer;
 }
-
 .btn{
 	background-color: transparent;
 	border: 1px solid white;
@@ -91,7 +91,18 @@
 
 .overlay-panel {
 	text-align: center;
-
+	font-family: 'Playfair Display', serif;
+}
+p{
+	font-family: 'Playfair Display', serif;
+}
+h1{
+	font-family: 'Barriecito', cursive;
+	font-family: 'Caprasimo', cursive;
+	font-family: 'Creepster', cursive;
+	font-family: 'Playfair Display', serif;
+	font-family: 'Rubik Wet Paint', cursive;
+	font-family: 'Rye', cursive;
 }
 
 
